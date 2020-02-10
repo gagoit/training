@@ -35,7 +35,7 @@ y = A.a2(2)
 Does Ruby support multiple inheritance?
 -> No, but Ruby provide another way to do it: **mixin**
 
-Mixins give you a wonderfully controlled way of adding functionality to classes.
+Mixins give you a wonderfully controlled way of adding functionality to classes via `include ModuleName` or `extend ModuleName`
 
 ```ruby
 module A
