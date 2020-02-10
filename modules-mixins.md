@@ -187,5 +187,15 @@ Use mixins to sharing the methods between the classes. Instead of repeat the cod
 we can group the common methods in module and include/extend that module in the classes we want.
 ```
 
+## How to check `ancestors` of a class 
+```ruby
+ClassName.ancestors
+```
+
+## How to check list of modules that were included in a class 
+```ruby
+ClassName.included_modules
+```
+
 https://repl.it/@BillPham/modules-mixins
 
